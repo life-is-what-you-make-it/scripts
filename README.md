@@ -32,11 +32,17 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 
 The configuration details of each machine may be found below.
 Note: Use the Markdown Table Generator to add/remove values from the table.
-Name	Function	IP Address	Operating System
-Jump Box	Gateway & runs docker w/ansible	10.0.0.8	Linux
-Web-4	Web server used to rn DVWA	10.0.0.9	Linux
-Web-5	Web server used to rn DVWA	10.0.0.10	Linux 
-Elk 	Runs Elk container & Kibana	10.1.0.4	Linux
+
+
+|  Name  |       Function	                  |  IP Address     |	 Operating System|
+|--------------------------------------------------------------------------------|
+|Jump Box|	Gateway & runs docker w/ansible	|10.0.0.8         |	Linux            |
+|Web-4	 |Web server used to rn DVWA        |	10.0.0.9        |	Linux            |
+|Web-5	 |Web server used to rn DVWA        |	10.0.0.10       |	Linux            |
+|Elk 	   |Runs Elk container & Kibana       |	10.1.0.4        |	Linux            |
+
+
+
 Access Policies
 The machines on the internal network are not exposed to the public Internet. 
 Only the _ machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
@@ -46,10 +52,18 @@ Machines within the network can only be accessed by _.
 * Jumpboxprovisioner 40.77.60.121
 
 A summary of the access policies in place can be found in the table below.
-Name	Publicly Accessible	Allowed IP Addresses
-Jump Box	yes	107.219.213.33  
-Web-4	No	10.0.0.8
-Web-5	No	10.0.0.8
+
+
+|Name    |   Publicly Accessible |	Allowed IP Addresses|
+|-------------------------------------------------------|
+|Jump Box|	   yes	             |107.219.213.33        |
+|-------------------------------------------------------|
+|Web-4   |	   No                |	10.0.0.8            |
+|-------------------------------------------------------|
+|Web-5   |     No                |	10.0.0.8            | 
+|-------------------------------------------------------|
+
+
 Elk Configuration
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
 
