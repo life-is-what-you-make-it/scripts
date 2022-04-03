@@ -55,11 +55,11 @@ Machines within the network can only be accessed by _.
 A summary of the access policies in place can be found in the table below.
 
 Name	Publicly Accessible	Allowed IP Addresses
-Jump Box |	yes	| 107.219.213.33  
+|Jump Box |	yes	| 107.219.213.33|  
 ----------------------------
-Web-4 |	No	 | 10.0.0.8
+|Web-4 |	No	 | 10.0.0.8|
 ---------------------------
-Web-5 |	No	 | 10.0.0.8
+|Web-5 |	No	 | 10.0.0.8|
 ----------------------------
 
 Elk Configuration
