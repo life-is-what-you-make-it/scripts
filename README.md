@@ -2,6 +2,7 @@
 Linux scripts and Ansible scripts from my CyberClass
 
 
+<<<<<<< HEAD
 
 
 
@@ -124,3 +125,5 @@ TODO: Answer the following questions to fill in the blanks:
 
 
 
+=======
+>>>>>>> 39b36f730b74a5af7782a05d6598ea35578e0395
