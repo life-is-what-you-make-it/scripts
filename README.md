@@ -34,15 +34,15 @@ The configuration details of each machine may be found below.
 Note: Use the Markdown Table Generator to add/remove values from the table.
 
 Name	Function	IP Address	Operating System
-================================================
+-----------------------------------------------
 Jump Box	Gateway & runs docker w/ansible	10.0.0.8	Linux
-==================================================
+----------------------------------------------------------
 Web-4	Web server used to rn DVWA	10.0.0.9	Linux
-==================================================
+----------------------------------------------------
 Web-5	Web server used to rn DVWA	10.0.0.10	Linux 
-===================================================
+----------------------------------------------------
 Elk 	Runs Elk container & Kibana	10.1.0.4	Linux
-===================================================
+--------------------------------------------------
 
 Access Policies
 The machines on the internal network are not exposed to the public Internet. 
